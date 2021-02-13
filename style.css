@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+height: 100%;
+width: 100%;
+font-family: 'poppins', sans-serif;
+color: #222;
+}
+
+
+
+/*Navigation Bar */
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-brand img 
+{
+	height:  100px;
+	padding-left: 2 0px;
+}
+
+.navbar-nav li
+{
+	padding: 5 10px;
+}
+
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+	color: #2A9C46!important;
+}
+
+.navbar
+{
+	background: #fff;
+}
+
+.navbar-toggler
+{
+border: none!important;
+}
+
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/*Slider End*/
+
+/*Image slider*/
+
+.carousel-innder img{
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-caption{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3{
+	font-size: 200%;
+	font-weight: 500;
+	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 1rem;
+}
+
+.btn-primary{
+	background-color: #2A9C46;
+	border: 1px solid #2A9C46;
+}
+.btn-primary:hover{
+	background-color: #2A9C46;
+	border: 1px solid #2A9C46;
+}
+
+
+/*-----------------Three column section--------------*/
+
+.fa-check-circle{
+	color: #2A9C46;
+	font-size: 4em;
+
+}
+
+
+/*-----------------Logo--------------*/
+
+.lang2 img{
+	height: 150px;
+	width: 200px;	
+	padding: 10px 10px;
+}
+
+.lang2{
+	text-align: center;
+}
+
+/*---------------Footer------------*/
+
+footer{
+	background-color: #2A9C46;
+	color: #d5d5d5;
+	padding-top: 2rem;
+
+}
+
+
+
+
+hr.light{
+	border-top: 1px solid #d5d5d5;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+
+footer a{
+	color: #d5d5d5;
+}
