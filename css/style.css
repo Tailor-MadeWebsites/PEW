@@ -304,7 +304,213 @@ button {
 /*--------------Contact End---------*/
 
 
+/*----------------Price List--------------*/
+
+
+.fusion-page-title-bar {
+    border-color: #f5f5f5;
+    background-color: #f5f5f5;
+    height: 87px;
+}
+
+.fusion-page-title-row {
+    overflow: hidden;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 940px;
+}
+
+.fusion-page-title-wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.fusion-page-title-bar .fusion-page-title-row h1 {
+    font-size: 30px;
+    line-height: 1.41;
+}
+
+.fusion-page-title-bar-left .fusion-page-title-secondary {
+    margin-left: 10px;
+}
+
+.fusion-page-title-bar .fusion-breadcrumbs, .fusion-page-title-bar .fusion-breadcrumbs a {
+    color: #343b49;
+}
+
+#main {
+    padding-bottom: 10px;
+}
+
+#main {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+#fusion-gmap-container, #main, #sliders-container, #wrapper, .fusion-separator .icon-wrapper, body, html {
+    background-color: #f5f5f5;
+}
+
+#main .fusion-row, #slidingbar-area .fusion-row, .fusion-footer-copyright-area .fusion-row, .fusion-footer-widget-area .fusion-row, .fusion-page-title-row, .tfs-slider .slide-content-container .slide-content {
+    max-width: 1170px;
+}
+
+.fusion-row {
+    margin: 0 auto;
+    zoom: 1;
+}
+
+element.style {
+    width: 100%;
+}
+#content {
+    width: 71.1702128%;
+    float: left;
+    min-height: 1px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+
+.rich-snippet-hidden {
+    display: none;
+}
+
+element.style {
+    background-color: rgba(255,255,255,0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.fusion-fullwidth {
+    position: relative;
+}
+
+#main .fullwidth-box .fusion-row {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#main .fusion-row, #slidingbar-area .fusion-row, .fusion-footer-copyright-area .fusion-row, .fusion-footer-widget-area .fusion-row, .fusion-page-title-row, .tfs-slider .slide-content-container .slide-content {
+    max-width: 1170px;
+}
+.fusion-builder-row.fusion-row {
+    max-width: 1170px;
+}
+.fusion-fullwidth .fusion-row {
+    position: relative;
+    z-index: 10;
+}
+.fusion-builder-row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+element.style {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.fusion-layout-column.fusion-column-last {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.fusion-layout-column.fusion-one-full {
+    float: none;
+    clear: both;
+}
+.fusion-layout-column {
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+}
+.fusion-column-first {
+    clear: left;
+}
+
+element.style {
+    padding: 0px 0px 0px 0px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+bold, strong {
+    font-weight: 700;
+}
+
+.fusion-clearfix {
+    zoom: 1;
+    clear: both;
+}
+
+.fusion-clearfix {
+    clear: both;
+    zoom: 1;
+}
+
+element.style {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.fusion-layout-column.fusion-column-last {
+    margin-left: 0;
+    margin-right: 0;
+}
+.fusion-layout-column.fusion-one-full {
+    float: none;
+    clear: both;
+}
+.fusion-layout-column {
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+}
+.fusion-column-first {
+    clear: left;
+}
+
+
+
+
+
 /*Media Queries*/
+
+@media only screen and (max-device-width: 640px){
+.fullwidth-box {
+    background-attachment: scroll!important;
+}
+
+@media only screen and (max-width: 850px){
+.fullwidth-box {
+    background-attachment: scroll!important;
+}
+@media only screen and (max-width: 850px){
+.fusion-body .fusion-layout-column {
+    width: 100%!important;
+}
+
+
 @media (max-width: 992px){
 	.social a {
 		font-size: 4em;
