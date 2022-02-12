@@ -8,6 +8,7 @@ height: 100%;
 width: 100%;
 font-family: 'poppins', sans-serif;
 color: #222;
+overflow-y: visible!important;
 }
 
 
@@ -150,6 +151,7 @@ transform: translateY(-50%);
 	background:#2A9C46;
 	color: #d5d5d5;
 	position: relative;
+	border-radius: 1rem;
 }
 
 .team .team-member h3{
@@ -555,7 +557,7 @@ element.style {
 }
 
 .carousel-caption h1{
-	font-size: 250%;
+	font-size: 200%;
 }
 
 .carousel-caption h3{
