@@ -11,7 +11,9 @@ color: #222;
 overflow-y: visible!important;
 }
 
-
+dl, ol, ul {
+    padding-left: 2rem!important;
+}
 
 /*Navigation Bar */
 #nav-bar
@@ -305,6 +307,92 @@ button {
 
 /*--------------Contact End---------*/
 
+/*-------About us Page------------*/
+
+.sub-header{
+	min-height: 100vh;
+	width: 100%;	
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.about-us{
+	width: 80%;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.about-col{
+	flex-basis: 48%;
+	padding: 30px 2px;
+}
+
+.about-col img{
+	width: 100%;
+}
+
+.about-col h1{
+	padding-top: 0;
+}
+
+.about-col p{
+	padding: 15px 0 25px;
+}
+
+
+
+
+.about-us-2{
+	width: 80%;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.about-col-2{
+	flex-basis: 48%;
+	padding: 30px 2px;
+}
+
+.about-col-2 img{
+	width: 100%;
+}
+
+.about-col-2 h1{
+	padding-top: 0;
+}
+
+.about-col-2 p{
+	padding: 15px 0 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*----------------Price List--------------*/
 
@@ -518,6 +606,36 @@ element.style {
 		font-size: 4em;
 		padding: 2rem;
 	}
+
+
+	.about-col-2 img{
+	width: 100%;
+	
+
+}
+
+.about-col img{
+	width: 100%;
+	
+	
+}
+
+.about-col{
+	flex-basis: 100%;
+	padding: 30px 2px;
+}
+
+.about-col-2{
+	flex-basis: 100%;
+	padding: 30px 2px;
+}
+.about-us{
+	width: 80%;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
 }
 
 @media (max-width: 768px){
@@ -549,6 +667,8 @@ element.style {
 	font-size: 2.5rem;
 	padding: 1.2rem;
 }
+
+
 
 @media (max-width: 576px){
 .carousel-caption{
